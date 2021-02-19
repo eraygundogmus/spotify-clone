@@ -1,5 +1,6 @@
 import React from 'react';
 import './Login.css';
+import { loginUrl } from './spotify';
 
 {/* Login Page: Header  Body  Footer
           Header : Logo, Navbar
@@ -29,7 +30,7 @@ function Login() {
         <div className="login__body">
                 <h1>Dinlemek her şeydir</h1>
                 <h3>Milyonlarca şarkı ve podcast. Kredi kartına gerek yok.</h3>
-                <button type="button">SPOTIFY FREE'Yİ EDİN</button>
+                <a href={loginUrl}> Giriş yap</a>
         </div>                        
     </div>
     <div className="login__footer">
