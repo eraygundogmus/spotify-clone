@@ -1,0 +1,43 @@
+.login img {
+    height:40px;
+    display: flex
+}
+
+.login .login__header {
+    height: 80px;
+    min-width: 970px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    background-color: black;
+    color: white;
+}
+.login .login__header ul {
+    list-style-type: none;
+    display: flex;
+}
+.login .login__header ul li {
+    display: flex;
+}
+
+.wrap {
+    align-items: center;
+    background-image: url("https://www.scdn.co/i/home/lieVariants/bursts-tablet.svg");
+    background-position: right 40% 50%;
+    display: flex;
+    gap: normal;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 846px;
+}
+
+.login__footer {
+    display: flex;
+}
+
+.login__footer img {
+    height: 40px;
+
+}
