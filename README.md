@@ -1,3 +1,7 @@
+# Getting Started with Spotify-Web-Api-Js 1.5
+(GitHub repository)[https://github.com/JMPerez/spotify-web-api-js]
+(Documentation - Parameters)[https://jmperezperez.com/spotify-web-api-js/]
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
