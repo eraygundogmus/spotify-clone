@@ -18,7 +18,7 @@ function HomeHero() {
 
     return (
     <div className="home-hero">
-        <h2 className="featureds-title">{featureds.message}</h2>
+        <h2 className="featureds-title">Editor's picks</h2>
             <div className="featureds"> 
                 {featureds?.playlists?.items.slice(0,8).map((featured) => (
                 <div className="featureds-items" id={featured.id}> <img src={featured.images[0].url}/>
