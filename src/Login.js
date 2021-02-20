@@ -21,7 +21,7 @@ function Login() {
                         <li><a>Premium</a></li>
                         <li><a>Destek</a></li>
                         <li><a>İndir</a></li>
-                        <li class="seperator"></li>
+                        <li className="seperator"></li>
                         <li><a>Kaydol</a></li>
                         <li><a>Oturum aç</a></li>
                     </ul>
