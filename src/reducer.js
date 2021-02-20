@@ -37,6 +37,16 @@ console.log(action);
                 ...state,
                 featureds: action.featureds,
             }
+        case 'GET_CATEGORIES' :
+            return {
+                ...state,
+                categories: action.categories,
+            }
+            case 'GET_RELEASES' :
+            return {
+                ...state,
+                releases: action.releases,
+            }
         default:
             return state;
     }

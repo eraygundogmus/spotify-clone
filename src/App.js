@@ -56,6 +56,22 @@ function App() {
           })
         })
 
+        spotify.getCategories().then((categories) => {
+          dispatch({
+            type: "GET_CATEGORIES",
+            categories: categories,
+          })
+        })
+
+        spotify.getNewReleases().then((releases) => {
+          dispatch({
+            type: "GET_RELEASES",
+            releases: releases,
+          })
+        })
+
+        
+
     }
   }, []);
 
