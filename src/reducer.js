@@ -27,7 +27,11 @@ console.log(action);
                 ...state,
                 playlists: action.playlists,
             };
-
+        case 'SET_GENERIC' :
+            return {
+                ...state,
+                generic : action.generic
+            }
         default:
             return state;
     }

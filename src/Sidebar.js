@@ -9,7 +9,8 @@ import LibraryAddIcon from '@material-ui/icons/LibraryAdd';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 
 function Sidebar() {
-    const [{ playlists }, dispatch ] = useDataLayerValue()
+    const [{ playlists } ,dispatch ] = useDataLayerValue()
+
     return (
 
         <div className="sidebar">
@@ -24,6 +25,7 @@ function Sidebar() {
             <SidebarOption Icon={LibraryAddIcon} title="Create Playlist"/>
             <SidebarOption Icon={FavoriteIcon} title="Tracks you liked"/>
             <hr />
+            
             {playlists?.items?.map((playlist) => (
             <SidebarOption title={playlist.name}/> 
             
