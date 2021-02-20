@@ -31,6 +31,11 @@ console.log(action);
             return {
                 ...state,
                 generic : action.generic
+            };
+        case 'FEATURED_PLAYLISTS' :
+            return {
+                ...state,
+                featureds: action.featureds,
             }
         default:
             return state;

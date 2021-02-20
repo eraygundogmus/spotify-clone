@@ -48,11 +48,19 @@ function App() {
             playlists: playlists,
           });
         });
+
+        spotify.getFeaturedPlaylists().then((response) => {
+          dispatch({
+            type: "FEATURED_PLAYLISTS",
+            featureds: response,
+          })
+        })
+
     }
   }, []);
 
-  console.log('Lol',user);
-  console.log('xD', token);
+/*   console.log('Lol',user);
+  console.log('xD', token); */
   return (
     <div className="App">
       {token ? <Player spotify={spotify} /> :  <Login />}

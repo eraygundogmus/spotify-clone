@@ -4,4 +4,9 @@
     padding: 10px 0px 0px 30px;
     background-color: #111;
     color: white;
+    overflow-y: scroll
 }
+
+.body::-webkit-scrollbar {
+    display: none;
+  }
