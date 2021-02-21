@@ -1,4 +1,13 @@
-Live Demo [Firebase Hosting](https://spotify-clone-5dbe7.web.app/)
+## Overview
+![overview](https://github.com/eraygundogmus/spotify-clone/blob/main/src/overview.gif)
+
+## Live Demo [Firebase Hosting](https://spotify-clone-5dbe7.web.app/)
+
+# About App 
+
+a spotify clone which use spotify api that get track featureds, playlists, user authentication and get access token
+
+
 
 # Getting Started with SPOTIFY WEB API JS 1.5
 Please check out GitHub repository to understand API [GitHub repository](https://github.com/JMPerez/spotify-web-api-js)\
