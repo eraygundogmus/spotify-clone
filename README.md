@@ -1,3 +1,5 @@
+Live Demo [Firebase Hosting](https://spotify-clone-5dbe7.web.app/)
+
 # Getting Started with SPOTIFY WEB API JS 1.5
 Please check out GitHub repository to understand API [GitHub repository](https://github.com/JMPerez/spotify-web-api-js)\
 Check out for parameters [Documentation - Parameters](https://jmperezperez.com/spotify-web-api-js/)
