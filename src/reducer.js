@@ -42,11 +42,16 @@ console.log(action);
                 ...state,
                 categories: action.categories,
             }
-            case 'GET_RELEASES' :
+        case 'GET_RELEASES' :
             return {
                 ...state,
                 releases: action.releases,
             }
+          case 'GET_TRACK' :
+            return {
+                ...state,
+                track: action.track,
+            }  
         default:
             return state;
     }

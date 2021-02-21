@@ -7,11 +7,6 @@ import SpotifyWebApi from "spotify-web-api-js"
 import { useDataLayerValue } from "./DataLayer";
 
 
-{/* 
-spotify.getUserPlaylists(_token.id).then(function(data) {
-          console.log('user playlists', data)
-        })
-*/}
 
 
 const spotify = new SpotifyWebApi();
@@ -23,6 +18,8 @@ function App() {
     const hash = getTokenFromUrl();
     window.location.hash = "";
     const _token = hash.access_token;
+ 
+
 
     if (_token) {
         
@@ -69,14 +66,19 @@ function App() {
             releases: releases,
           })
         })
+        
+          spotify.getPlaylistTracks("37i9dQZF1DX1BGjF5N5O7F").then((track => {
+          dispatch({
+            type: "GET_TRACK",
+            track: track,
+          }) 
+        })) 
 
         
 
     }
   }, []);
 
-/*   console.log('Lol',user);
-  console.log('xD', token); */
   return (
     <div className="App">
       {token ? <Player spotify={spotify} /> :  <Login />}

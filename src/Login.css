@@ -1,43 +1,154 @@
 .login img {
-    height:150px;
-    display: flex
+    height:40px;
+    cursor: pointer;
 }
 
-.login .login__header {
-    height: 80px;
-    min-width: 970px;
+.login-container {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    top: 0;
-    background-color: black;
-    color: white;
-}
-.login .login__header ul {
-    list-style-type: none;
-    display: flex;
-}
-.login .login__header ul li {
-    display: flex;
-}
-
-.wrap {
     align-items: center;
-    background-image: url("https://www.scdn.co/i/home/lieVariants/bursts-tablet.svg");
-    background-position: right 40% 50%;
-    display: flex;
-    gap: normal;
-    flex-direction: column;
+    width: 100%;
+    background-color: black;
     justify-content: center;
+    position: fixed
+}
+
+.login {
+    background-color: black;
+    width: 60%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 80px;
+}
+.login__header {
+    display: flex;
+}
+.login__navbar ul {
+    display: inline-flex;
+    padding: 10px;
+    list-style-type: none;
+
+}
+.login .login__navbar li {
+    padding: 15px;
+
+}
+.login__navbar .seperator {
+    margin-left: 15px;
+}
+.login .login__navbar li a {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.login__body  {
+    background-color: #2D46B9;
+
+}
+
+.login__body .body-info {
+    width: 800px;
+    margin-bottom: 150px;
+
+}
+.login__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("bursts.svg");
+    background-size: 3000px;
+    background-position: 43% 0%;
+    object-fit: contain;
+    height: 980px;
+}
+.login__body h1  {
+    font-size: 156px;
+    font-weight: 700;
+    color: #1ed760;
+    line-height: 166px;
+    letter-spacing: -6.24px;
     text-align: center;
-    min-height: 846px;
+    margin-top: 60px;
+}
+
+.login__body h3 {
+    color: #1ed760;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 40px;
+    font-weight: 400;
+}
+.login__body .button-login-css {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login__body .button-login {
+    cursor: pointer;
+    display: flex;
+    background-color: #1ed760;
+    width: 200px;
+    border-radius: 30px;
+    height: 50px;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: center;
+}
+.login__body .button-login a {
+    display: flex;
+    text-decoration: none;
+    color: #2D46B9;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
 }
 
 .login__footer {
+    background-color: black;
     display: flex;
+    justify-content: center;
 }
 
 .login__footer img {
-    height: 40px;
+    height: 37px;
+}
+.login__footer .footer__container{
+    background-color: black;
+    width: 60%;
+    display: flex;
+    color: white;
+}
+.login__footer .footer_container-info {
+    height: 400px;
+    display: flex;
+    margin-top: 100px;
+    width: 110%;
 
+}
+
+.login__footer .footer_container-info ul  {
+    list-style-type: none;
+    color: grey;
+    font-weight: 500;
+    padding-left: 50px;
+    font-size: 14px;
+
+}
+
+.login__footer .footer_container-info ul li  {
+    list-style-type: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.socials {
+    margin-left: auto;
+}
+.socials img {
+    height: 48px;
+    padding-left: 30px
 }
