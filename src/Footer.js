@@ -29,6 +29,7 @@ function Footer() {
                 <PlayCircleOutlineIcon fontSize="large" />
                 <SkipNextIcon fontSize="small" />
                 <RepeatIcon fontSize="small" />
+                
 
             </div>
             <div className="footer__right">
